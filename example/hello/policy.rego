@@ -1,4 +1,4 @@
-package demo.demo
+package example.hello
 
 # hello defaults to false
 default hello := false
