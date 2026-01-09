@@ -1,4 +1,4 @@
-package outbound.delivery_strategy
+package outbound.deliveryStrategy
 
 default strategy := "seal"
 
