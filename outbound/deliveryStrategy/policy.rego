@@ -1,12 +1,9 @@
 package outbound.deliveryStrategy
 
-default strategy := "seal"
+default strategy := ["tunnel","smime","seal"]
 
-strategy := "seal" if {
-	input.channel == "smtp"
+strategy := ["tunnel", "smime", "smtp"] if {
+    subject := lower(input.subject)
+    k := data.keywords[_]
+    contains(subject, lower(k))
 }
-
-strategy := "smtp" if {
-	input.channel == "json"
-}
-
