@@ -1,4 +1,4 @@
-package outbound.deliveryStrategy
+package outbound.delivery_strategy
 
 default strategy := ["tunnel","smime","seal"]
 
