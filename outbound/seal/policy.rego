@@ -1,3 +1,3 @@
-package outbound.seal_only
+package outbound.seal
 
 default strategy := ["seal"]

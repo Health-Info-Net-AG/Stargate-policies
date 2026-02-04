@@ -1,4 +1,4 @@
-package alpha.delivery_strategy
+package alpha.delivery
 
 default strategy := ["tunnel","smime","seal"]
 
