@@ -1,1 +1,0 @@
-package inbound.receiving_strategy
