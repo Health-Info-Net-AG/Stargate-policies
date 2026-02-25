@@ -7,3 +7,4 @@ strategy := ["tunnel", "smime", "smtp"] if {
     k := data.keywords[_]
     contains(subject, lower(k))
 }
+

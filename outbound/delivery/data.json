@@ -1,7 +1,21 @@
 {
   "keywords": [
-    "[non-confidential]",
-    "[public]",
-    "[open]"
+   "[VERTRAULICH]",
+   "[CONFIDENTIEL]",
+   "[CONFIDENZIALE]",
+   "[CONFIDENTIAL]",
+   "[SECURE]",
+   "[GLOBAL]",
+   "<VERTRAULICH>",
+   "<CONFIDENTIEL>",
+   "<CONFIDENZIALE>",
+   "<CONFIDENTIAL>",
+   "<SECURE>",
+   "(VERTRAULICH)",
+   "(CONFIDENTIEL)",
+   "(CONFIDENZIALE)",
+   "(CONFIDENTIAL)",
+   "(SECURE)"
   ]
 }
+
